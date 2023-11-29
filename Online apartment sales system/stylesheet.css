@@ -1,0 +1,58 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+section
+{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   width:100%;
+   background-image: linear-gradient(rgba(135, 88, 255, 0.679),rgba(0, 0, 0, 0.17)),url(https://www.marinabaysands.com/content/dam/revamp/hotel/rooms-suites/sands-premier-room/masthead-1920x1234.jpg) ;
+   background-size: cover;
+}
+.form-box
+{
+    position: relative;
+    width:400px;
+    height:800px;
+    background: rgba(135, 88, 255, 0.679);
+    border: 2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2
+{
+    color: black;
+    text-align: center;
+}
+
+.bbtn{
+    color:rgb(250, 246, 253);
+    background-color: rgb(7, 15, 12);
+    font-size: 25px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: center;
+}
+.input-box
+{
+    position:relative;
+    margin: 30px 0 30px 30px;
+    width: 310px;
+    border-radius: 20px;
+}
+
+
+
+
+
+

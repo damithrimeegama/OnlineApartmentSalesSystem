@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+
+}
+
+.Sign-Up-Form{
+    width: 450px;
+    height: 375px;
+    box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.3);
+    background: #000107;
+    padding: 5px;
+    padding-bottom: 150px;
+    margin: 8% auto 0;
+    border-radius: 10px;
+    background: linear-gradient(to right,#eeeaee, #f0f0f0, #fbfffe);
+    transition-duration: 3s;
+}
+
+.input-box{
+    width: 350px;
+    height: 35px;
+    background-color: #e9e9f6;
+    border-radius: 5px;
+    margin-left: 60px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.signup-btn{
+    width: 150px;
+    height: 45px;
+    background-color: #5e5e46;
+    border-radius: 10px;
+    text-decoration-style: dotted;
+    color: rgb(17, 17, 17);
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.hr{
+    width: auto;
+    height: 5px;
+    background-color: #000;
+}
+
+ span{
+    background: none;
+    box-shadow: none;
+    color: #000;
+    opacity: 1.6;
+    margin: 75px;
+}
+
+.body{
+   /* background: linear-gradient( #aa8b97,#8a81a0,#572929, #0a191d) ;*/
+    margin: 0;
+    padding: 0;
+    background: url("Pictures/P3.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+
+.social{
+    width: 230px;
+    height: 45px;
+    background-color: #47038b;
+    color: #ffffff;
+    border-radius: 15px;
+    background-size: auto;
+    margin-left: 110px;
+}
+
+.Sign_Up{
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.or{
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    text-align: left;
+}
+
+form p{
+    text-align: left;
+}
+.form-container
+{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    padding-bottom: 60px;
+    background: #eee ;
+    width:100%;
+    padding:10px 15px;
+    font-size:17px;
+    margin:8px 0;
+    background: #eee;
+    border-radius: 5px;
+
+}
+
+.check-box{
+    margin-left: opx;
+}

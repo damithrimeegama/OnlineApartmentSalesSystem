@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .Ph {
+    font-size: 70px;
+    color: #241717;
+    max-width: 1600px;
+  }
+  .Pt{
+    font-size: 25px;
+    max-width: 500px;
+    color: #6a6a6a;
+    margin: 1.5rem 0rem;
+  }
+
+  .As {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .AsT {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+  }
+  .Sub {
+    font-weight: 700;
+    color: #0a2980;
+    font-size: 2rem;
+  }
+
+  @media (max-width: 800px) {
+    .As {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 5rem !important;
+    }
+
+    .Ph {
+      text-align: center;
+      max-width: 90%;
+    }
+    .Pt {
+      text-align: center;
+      max-width: 80%;
+    }
+  
+    .AsT {
+      justify-content: center;
+      align-items: center;
+      margin-top: 4rem;
+    }
+    .secondary-button {
+      font-size: 1rem;
+      padding: 0.8rem 2rem;
+      cursor: pointer;
+    }
+    .primary-subheading {
+      text-align: center;
+    }
+
+  }
+  .Pic {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .Pic .Pic {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .Pic .Pic_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .Pic .Pic_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+  .Pic .Pic_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .title-white {
+    color: rgb(255, 255, 255);
+  }
+  

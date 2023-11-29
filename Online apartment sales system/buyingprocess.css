@@ -1,0 +1,131 @@
+body
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: beige;
+}
+
+.container
+{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: rgb(124, 182, 215);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container header
+{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.container form
+{
+    position: relative;
+    margin-top: 18px;
+    min-height: 750px;
+    background-color: rgb(116, 205, 210);
+    width: 100%;
+}
+
+.container form .details
+{
+    margin-top: 10px;
+}
+
+.container form .fields
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+form .fields .input-field
+{
+    width: calc(100% / 2 -15px);
+    flex-direction: column;
+    margin: 40px 0;
+    
+}
+
+.input-field label
+{
+    font-size: 12px;
+    font-weight: 500;
+    color: azure;
+}
+
+.input-field input
+{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 0 15px;
+    height: 45px;
+    margin: 8px 0;
+    width: 100px;
+}
+
+.input-field input:is(:focus, :valid)
+{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+
+.submit
+{
+    width: 30%;
+    height: 30px;
+    border: 1px solid;
+    background: #716c74;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    text-align: center; 
+    margin-left: 33.3%;
+}
+
+.button1
+{
+    background-color: #3c599c; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.button2
+{
+    background-color: #3c599c; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 13%;
+}
+
+.input-field c1{
+    color: aqua;
+}

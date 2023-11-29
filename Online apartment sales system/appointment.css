@@ -1,0 +1,43 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto Condensed', sans-serif;;
+}
+body
+{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://www.marinabaysands.com/content/dam/revamp/hotel/rooms-suites/orchid-suite/masthead-1920x1234.jpg);
+
+
+}
+.container
+{
+    max-width: 700px;
+    width:500px;
+    height:600px;
+    background: pink;
+    padding:25px 30px;
+    border-radius: 5px;
+
+}
+.container .title
+{
+    font-weight:500;
+    font-size:25px;
+    position: relative;
+}
+.container .title::before
+{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:3px;
+    width:100%;
+    background: linear-gradient(#71b7e6,#9b59b6);
+}
